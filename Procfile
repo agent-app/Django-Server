@@ -1,1 +1,1 @@
-web: gunicorn agent-app.wsgi:application --log-file - --log-level debug
+web: gunicorn agentapp.wsgi:application --log-file - --log-level debug
